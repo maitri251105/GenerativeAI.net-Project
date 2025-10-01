@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Header */
+#header {
+    background-color: #013621;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10% 1% 10%;
+    color: #DCEFE2;
+    font-weight: 600;
+
+    .logo {
+        img {
+            height: 77px;
+            width: 254px;
+        }
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        gap: 10px;
+        margin: 0 20px;
+
+        li {
+            list-style-type: none;
+            position: relative;
+            padding: 5px 10px;
+            cursor: pointer;
+
+            a {
+                color: #DCEFE2;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .login {
+        position: relative;
+        padding: 5px 10px;
+        cursor: pointer;
+
+        a {
+            color: #DCEFE2;
+            text-decoration: none;
+        }
+    }
+}
+
+.cur-page::after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background-color: #DCEFE2;
+    width: 80%;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background-color: #DCEFE2;
+    transition: width 0.3s ease;
+}
+
+.underline:hover::after {
+    width: 85%;
+}
+
+/* meet */
+#meet {
+    text-align: center;
+    margin: 5% 20% 0 20%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #017D48;
+
+    .heading {
+        font-size: 46px;
+        font-weight: 600;
+        color: #292929;
+        padding-bottom: 50px;
+    }
+
+    .content {
+        display: flex;
+
+        .image {
+            width: 45%;
+
+            img {
+                height: 470px;
+                width: 290px;
+                margin-top: 20px;
+                margin-right: 100px;
+            }
+        }
+
+        .text {
+            width: 55%;
+            text-align: left;
+
+            p {
+                color: #013621;
+                font-size: 18px;
+                word-spacing: 3px;
+                line-height: 25px;
+                margin-top: 20px;
+
+                a {
+                    color: #0039B3;
+                }
+            }
+        }
+    }
+}
+
+/* info */
+#info {
+    margin: 4% 20% 0 20%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #017D48;
+
+    .key-data {
+        .heading {
+            color: #02C071;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #013621;
+            word-spacing: 3px;
+            line-height: 25px;
+            margin: 20px 0;
+        }
+
+        ul {
+            padding-left: 50px;
+
+            li {
+                color: #013621;
+                word-spacing: 3px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .say-hi {
+        .heading {
+            color: #02C071;
+            font-size: 30px;
+            font-weight: 600;
+            padding-bottom: 25px;
+            padding-top: 30px;
+        }
+
+        .text {
+            color: #013621;
+            word-spacing: 3px;
+            line-height: 30px;
+        }
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        gap: 30px;
+
+        .box {
+            height: 48px;
+            width: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(173, 173, 173);
+            border-radius: 50px;
+
+            i {
+                color: white;
+                font-size: 24px;
+            }
+        }
+
+        .box:hover {
+            background-color: rgb(193, 193, 193);
+        }
+    }
+}
+
+/* Coaching */
+#coaching {
+    margin: 4% 20% 0 20%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #017D48;
+
+    .heading {
+        color: #02C071;
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 25px;
+        padding-top: 30px;
+    }
+
+    .text {
+        color: #013621;
+        word-spacing: 3px;
+        line-height: 30px;
+    }
+
+    button {
+        padding: 20px 53px;
+        background-color: #000000;
+        border-radius: 5px;
+        margin: 2% 35%;
+        font-weight: bold;
+        border: none;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+    }
+
+    button:hover {
+        background-color: #FFFFFF;
+        color: #000000;
+        border: 1px solid #000000;
+    }
+}
+
+/* Feedback */
+#feedback {
+    margin: 4% 20%;
+
+    .heading {
+        color: #02C071;
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 25px;
+        padding-top: 30px;
+    }
+
+    .images {
+        padding: 50px;
+
+        img {
+            height: 50%;
+            width: 90%;
+            margin-top: 10px;
+        }
+    }
+}
+
+/* footer */
+#footer {
+    background-color: black;
+    text-align: center;
+    padding: 4% 20%;
+
+    .list1 {
+        ul {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+
+            li {
+                list-style-type: none;
+                font-size: 14px;
+                color: #FFFFFF;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .list2 {
+        margin-top: 30px;
+
+        ul {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+
+            li {
+                font-size: 14px;
+                list-style-type: none;
+                text-transform: uppercase;
+
+                a {
+                    color: #017D48;
+                }
+            }
+        }
+    }
+
+    .terms {
+        font-size: 14px;
+        margin-top: 30px;
+
+        a {
+            color: #017D48;
+        }
+    }
+}
