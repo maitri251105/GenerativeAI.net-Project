@@ -4,7 +4,7 @@ const header_content = `
             <img src="images/logo_genai_color_transparentbg.png" alt="logo">
     </div>
     <ul>
-        <li class="underline"><a href="home.html">Home</a></li>
+        <li class="underline"><a href="index.html">Home</a></li>
         <li class="underline"><a href="services.html">Services</a></li>
         <li class="underline"><a href="code.html">Everyone can code! ✨</a></li> 
         <li class="underline"><a href="#">Courses</a></li>
