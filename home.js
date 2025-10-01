@@ -113,7 +113,7 @@ const keys = `
             <div class="heading">Image Generation</div>
             <div class="text">
                 <p>Image Generation is a process of using deep learning algorithms such as <b>VAEs, GANs,</b> and more recently <b>Stable Diffusion,</b> to create new images that are visually similar to real-world images. Image Generation can be used for data augmentation to improve the performance of machine learning models, as well as in creating art, generating product images, and more.</p><br>
-                <p>🪄 Application: Very successful platforms such as <a href="https://www.midjourney.com/index">MidJourney</a> and <a href="https://openai.com/index/dall-e-2/">DALL-E</a> have become a popular choice for anyone seeking to generate realistic images through Image Generation techniques.</p>
+                <p>🪄 Application: Very successful platforms such as <a href="https://www.midjourney.com/home">MidJourney</a> and <a href="https://openai.com/index/dall-e-2/">DALL-E</a> have become a popular choice for anyone seeking to generate realistic images through Image Generation techniques.</p>
             </div>
         </div>
     </div>
